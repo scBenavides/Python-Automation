@@ -36,7 +36,7 @@ import os
 DEFAULT_BACKUP_DIR = Path("/backups")
 
 # Archivo de log
-LOG_FILE = Path.home() / "veeam_cleanup.log"
+LOG_FILE = Path(os.getenv("LOG_FILE", "/backups/veeam_cleanup.log"))
 FALLBACK_LOG_FILE = Path("/tmp/veeam_cleanup.log")
 ENV_FILE = Path(__file__).parent / ".env"
 
