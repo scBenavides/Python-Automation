@@ -6,5 +6,5 @@ services:
       - .env
     volumes:
       - ./logs:/app/logs
-      - ${BACKUPS_HOST_PATH:-./backups}:/backups
+      - /mnt/veeambackup:/backups
     command: ["--path", "/backups"]

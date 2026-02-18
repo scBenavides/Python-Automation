@@ -1,0 +1,326 @@
+ Container veeam-cleaner-veeam-cleaner-run-5252f725e020 Creating 
+ Container veeam-cleaner-veeam-cleaner-run-5252f725e020 Created 
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ Buscando backups duplicados en: /backups
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ Fuente de ruta: env
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ Roots permitidos: /backups
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ Estrategia: Eliminar backup MÁS ANTIGUO (protección inteligente)
+
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ Hash desactivado: no se calcularán hashes de archivos (modo rápido)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ Modo: Veeam + genérico
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: Carbonio_temp Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-ALFRESCO DOCKER 7.2 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-BIG BLUE BUTTON Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-CVR_CENTRALIZADO Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-CVR_PROXY Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-INFRA-GLPI-New Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-INFRA-OPENFIRE-UBUNTU Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-INFRA-REPORTING-WS2019 Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-INFRA-WINSERVE_2019 Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-INFRA_PRUEBAS_WSVR2019 Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-IT_UBUNTUSERVER Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-SOPORTE-WIN10_22h2 Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: COS-WORKFORCE-PRUEBAS Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: frontcolas Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: JUZGADOS Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-ASTERISK-VOICEBOT-PRODV2 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-CLOUD-WIN_NOTIFICACIONES Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-CLOUD_EXPRESS_ISOLATED Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-CLUSTER_AUTENTICATION-Nodo2-now Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-CONFIANZA-GMF-PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DBA-CARTERA-NODO-1-new Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DBA-CLUSTER-RPA_1 Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DBA-CRM2_NODO_1 Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DBA-MYSQL-MIOS1-PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DBA-VOICEBOT Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DBA_APPMASTER_NODO1_PROD Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DBA_POSTGRESQL_PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV-SOULCHAT-PROD Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEVOPS_BALANCER_MASTER Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_APPMASTER_PROJECTS_8.5-PROD Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_APPMASTER_PROJECTS_8.7-PROD1 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_CARTERAS_PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_CARTERAWOM-PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_CENTOS_LARAVEL_PROD1 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_F5_NGINX_PLUS Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_KUBE-RECORDS Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_PROD_DOCKERS_NUEVOS Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_PROD_DOCKERS_NUEVOS_PRUEBA Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_QUALITY1 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_QUALITY_TF Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_MIOS_VICIDIAL_PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_PROD_APPMASTER_3-PROD Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_PROD_APPMASTER_4-prod Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_RP_WEB_SERVICES-PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_RRHH-PROD Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_VICIDIAL_MARCADOR2 Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_VICIDIAL_MASTER Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_VICIDIAL_NODO3 Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_VICIDIAL_WEB-RTC Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_VivamosHumanosWP Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_WIN10_CORREO_SBS Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_WIN10_NEW_SBS_INBOUND Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_WIN10_RECOVER_TOP_ETB Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-DEV_WINDOWS_CRM_EXPRESS Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-GLPI-PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-GLPI_CONTACTO-PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-JITSI-PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-MICROSERVICES-DOCKERS-QA Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-MIOS1_PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-MYSQL-QA Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-OMNICHANNEL_CENTOS_DASHBOTS_87-PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-QA-TESTLINK Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-RPA-CLAROVENTAS-PROD-1 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-RPA-CLAROVENTAS-PROD-2 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-SMART-CONFIANZA-QA Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-SMART-GM-PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-SMART-GW2-GMF-PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-SMART-GW3-CONFIANZA-PROD Backup_1 (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-SMART-GWGMF-QA Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-SMART-GWSBS-QA Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-SMART-QA Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MON-SMART_CONFIANZA-PROD_TF Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-AUTO-GOPASS Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-AZDEVOPS_NODO1 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-AZDEVOPS_NODO3 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-CLOUD-DEMO Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-CLOUD-ETBSOUL Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-CLOUD-OMNICANALIDAD Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-CLOUD-PROXY-PUBLICOS INTERNO Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-CLOUD_K8S_CORE Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-CLOUD_K8S_CORE_LEGACYNODE Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-CLOUD_K8S_CORE_LEGACYNODE2 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-K8S-SOULAPPS_QA Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-K8S-TEST2 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-PROXY-IFX Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-SBS_OFFICIAL-PROD Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: MONT-SOUL-PROD_NEW Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: OCS_INVENTORY_V2 Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: PRUEBAS SONARQUBE DANIELA Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: Semilla Basica Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: windows 10 mintic Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ PROTEGIDO: WORDPRESS_NGINX_MICROSITES Backup (no tiene gemelas suficientes)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+
+ Se encontraron 3 par(es) de carpetas duplicadas
+
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  • MON-SMART-GW1-SBS-PROD Backup → ELIMINAR
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+    ↳ Conservar: MON-SMART-GW1-SBS-PROD Backup_1
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+    ↳ Tamaño: 52.11 GB
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  • MONT-AZDEVOPS_NODO2 Backup → ELIMINAR
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+    ↳ Conservar: MONT-AZDEVOPS_NODO2 Backup_1
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+    ↳ Tamaño: 60.34 GB
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  • MON_DEV_PROD_PRE-EXPRESS-PROD Backup → ELIMINAR
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+    ↳ Conservar: MON_DEV_PROD_PRE-EXPRESS-PROD Backup_1
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+    ↳ Tamaño: 329.59 GB
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+
+Esto es una SIMULACIÓN. Para eliminar realmente, ejecuta:
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+   python3 /app/cleanup.py --execute
+
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+
+================================================================================
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+MODO: DRY-RUN (SIMULACIÓN)
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+================================================================================
+
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+
+────────────────────────────────────────────────────────────────────────────────
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+[1/3] Job: MON-SMART-GW1-SBS-PROD
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+────────────────────────────────────────────────────────────────────────────────
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  ELIMINAR:  MON-SMART-GW1-SBS-PROD Backup
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  CONSERVAR: MON-SMART-GW1-SBS-PROD Backup_1
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Fecha a eliminar:  2025-11-16 07:29:59
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Fecha a conservar: 2026-02-18 03:34:20
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Tamaño a liberar: 52.11 GB
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Patrón detectado: Veeam
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Estado: MULTI
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ Simulación: NO se eliminó nada
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+
+────────────────────────────────────────────────────────────────────────────────
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+[2/3] Job: MONT-AZDEVOPS_NODO2
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+────────────────────────────────────────────────────────────────────────────────
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  ELIMINAR:  MONT-AZDEVOPS_NODO2 Backup
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  CONSERVAR: MONT-AZDEVOPS_NODO2 Backup_1
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Fecha a eliminar:  2025-12-12 11:00:16
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Fecha a conservar: 2026-02-18 03:14:38
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Tamaño a liberar: 60.34 GB
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Patrón detectado: Veeam
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Estado: MULTI
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ Simulación: NO se eliminó nada
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+
+────────────────────────────────────────────────────────────────────────────────
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+[3/3] Job: MON_DEV_PROD_PRE-EXPRESS-PROD
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+────────────────────────────────────────────────────────────────────────────────
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  ELIMINAR:  MON_DEV_PROD_PRE-EXPRESS-PROD Backup
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  CONSERVAR: MON_DEV_PROD_PRE-EXPRESS-PROD Backup_1
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Fecha a eliminar:  2025-11-26 11:23:56
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Fecha a conservar: 2026-02-18 03:24:23
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Tamaño a liberar: 329.59 GB
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Patrón detectado: Veeam
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+  Estado: MULTI
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ Simulación: NO se eliminó nada
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+
+================================================================================
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+RESUMEN DE OPERACIÓN
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+================================================================================
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ Carpetas que se eliminarían: 3
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+ Espacio total a liberar: 442.04 GB
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+================================================================================
+
+No se pudo escribir en el log principal, usando /tmp/veeam_cleanup.log
+Log guardado en: /backups/veeam_cleanup.log

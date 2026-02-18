@@ -1,0 +1,167 @@
+[2026-02-18 22:28:31]  Buscando backups duplicados en: /backups
+[2026-02-18 22:28:31]  Fuente de ruta: env
+[2026-02-18 22:28:31]  Roots permitidos: /backups
+[2026-02-18 22:28:31]  Estrategia: Eliminar backup MÁS ANTIGUO (protección inteligente)
+
+[2026-02-18 22:28:31]  Hash desactivado: no se calcularán hashes de archivos (modo rápido)
+[2026-02-18 22:28:31]  Modo: Veeam + genérico
+[2026-02-18 22:28:31]  PROTEGIDO: Carbonio_temp Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-ALFRESCO DOCKER 7.2 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-BIG BLUE BUTTON Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-CVR_CENTRALIZADO Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-CVR_PROXY Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-INFRA-GLPI-New Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-INFRA-OPENFIRE-UBUNTU Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-INFRA-REPORTING-WS2019 Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-INFRA-WINSERVE_2019 Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-INFRA_PRUEBAS_WSVR2019 Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-IT_UBUNTUSERVER Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-SOPORTE-WIN10_22h2 Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: COS-WORKFORCE-PRUEBAS Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: frontcolas Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: JUZGADOS Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-ASTERISK-VOICEBOT-PRODV2 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-CLOUD-WIN_NOTIFICACIONES Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-CLOUD_EXPRESS_ISOLATED Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-CLUSTER_AUTENTICATION-Nodo2-now Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-CONFIANZA-GMF-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DBA-CARTERA-NODO-1-new Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DBA-CLUSTER-RPA_1 Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DBA-CRM2_NODO_1 Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DBA-MYSQL-MIOS1-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DBA-VOICEBOT Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DBA_APPMASTER_NODO1_PROD Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DBA_POSTGRESQL_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV-SOULCHAT-PROD Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEVOPS_BALANCER_MASTER Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_APPMASTER_PROJECTS_8.5-PROD Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_APPMASTER_PROJECTS_8.7-PROD1 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_CARTERAS_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_CARTERAWOM-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_CENTOS_LARAVEL_PROD1 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_F5_NGINX_PLUS Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_KUBE-RECORDS Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_PROD_DOCKERS_NUEVOS Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_PROD_DOCKERS_NUEVOS_PRUEBA Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_QUALITY1 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_QUALITY_TF Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_MIOS_VICIDIAL_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_PROD_APPMASTER_3-PROD Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_PROD_APPMASTER_4-prod Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_RP_WEB_SERVICES-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_RRHH-PROD Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_VICIDIAL_MARCADOR2 Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_VICIDIAL_MASTER Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_VICIDIAL_NODO3 Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_VICIDIAL_WEB-RTC Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:31]  PROTEGIDO: MON-DEV_VivamosHumanosWP Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-DEV_WIN10_CORREO_SBS Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-DEV_WIN10_NEW_SBS_INBOUND Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-DEV_WIN10_RECOVER_TOP_ETB Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-DEV_WINDOWS_CRM_EXPRESS Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-GLPI-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-GLPI_CONTACTO-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-JITSI-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-MICROSERVICES-DOCKERS-QA Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-MIOS1_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-MYSQL-QA Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-OMNICHANNEL_CENTOS_DASHBOTS_87-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-QA-TESTLINK Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-RPA-CLAROVENTAS-PROD-1 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-RPA-CLAROVENTAS-PROD-2 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-SMART-CONFIANZA-QA Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-SMART-GM-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-SMART-GW2-GMF-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-SMART-GW3-CONFIANZA-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-SMART-GWGMF-QA Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-SMART-GWSBS-QA Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-SMART-QA Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MON-SMART_CONFIANZA-PROD_TF Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-AUTO-GOPASS Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-AZDEVOPS_NODO1 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-AZDEVOPS_NODO3 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-CLOUD-DEMO Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-CLOUD-ETBSOUL Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-CLOUD-OMNICANALIDAD Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-CLOUD-PROXY-PUBLICOS INTERNO Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-CLOUD_K8S_CORE Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-CLOUD_K8S_CORE_LEGACYNODE Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-CLOUD_K8S_CORE_LEGACYNODE2 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-K8S-SOULAPPS_QA Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-K8S-TEST2 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-PROXY-IFX Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-SBS_OFFICIAL-PROD Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: MONT-SOUL-PROD_NEW Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: OCS_INVENTORY_V2 Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: PRUEBAS SONARQUBE DANIELA Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: Semilla Basica Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: windows 10 mintic Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32]  PROTEGIDO: WORDPRESS_NGINX_MICROSITES Backup (no tiene gemelas suficientes)
+[2026-02-18 22:28:32] 
+ Se encontraron 3 par(es) de carpetas duplicadas
+
+[2026-02-18 22:28:32]   • MON-SMART-GW1-SBS-PROD Backup → ELIMINAR
+[2026-02-18 22:28:32]     ↳ Conservar: MON-SMART-GW1-SBS-PROD Backup_1
+[2026-02-18 22:28:32]     ↳ Tamaño: 52.11 GB
+[2026-02-18 22:28:32] 
+[2026-02-18 22:28:32]   • MONT-AZDEVOPS_NODO2 Backup → ELIMINAR
+[2026-02-18 22:28:32]     ↳ Conservar: MONT-AZDEVOPS_NODO2 Backup_1
+[2026-02-18 22:28:32]     ↳ Tamaño: 60.34 GB
+[2026-02-18 22:28:32] 
+[2026-02-18 22:28:32]   • MON_DEV_PROD_PRE-EXPRESS-PROD Backup → ELIMINAR
+[2026-02-18 22:28:32]     ↳ Conservar: MON_DEV_PROD_PRE-EXPRESS-PROD Backup_1
+[2026-02-18 22:28:32]     ↳ Tamaño: 329.59 GB
+[2026-02-18 22:28:32] 
+[2026-02-18 22:28:32] 
+================================================================================
+[2026-02-18 22:28:32] MODO: ELIMINACIÓN REAL
+[2026-02-18 22:28:32] ================================================================================
+
+[2026-02-18 22:28:32] 
+────────────────────────────────────────────────────────────────────────────────
+[2026-02-18 22:28:32] [1/3] Job: MON-SMART-GW1-SBS-PROD
+[2026-02-18 22:28:32] ────────────────────────────────────────────────────────────────────────────────
+[2026-02-18 22:28:32]   ELIMINAR:  MON-SMART-GW1-SBS-PROD Backup
+[2026-02-18 22:28:32]   CONSERVAR: MON-SMART-GW1-SBS-PROD Backup_1
+[2026-02-18 22:28:32]   Fecha a eliminar:  2025-11-16 07:29:59
+[2026-02-18 22:28:32]   Fecha a conservar: 2026-02-18 03:34:20
+[2026-02-18 22:28:32]   Tamaño a liberar: 52.11 GB
+[2026-02-18 22:28:32]   Patrón detectado: Veeam
+[2026-02-18 22:28:32]   Estado: MULTI
+[2026-02-18 22:28:32]   Error al eliminar: [Errno 13] Permission denied: 'MON-SMART-GW1-SBS-PROD Backup.vbm'
+[2026-02-18 22:28:32] 
+────────────────────────────────────────────────────────────────────────────────
+[2026-02-18 22:28:32] [2/3] Job: MONT-AZDEVOPS_NODO2
+[2026-02-18 22:28:32] ────────────────────────────────────────────────────────────────────────────────
+[2026-02-18 22:28:32]   ELIMINAR:  MONT-AZDEVOPS_NODO2 Backup
+[2026-02-18 22:28:32]   CONSERVAR: MONT-AZDEVOPS_NODO2 Backup_1
+[2026-02-18 22:28:32]   Fecha a eliminar:  2025-12-12 11:00:16
+[2026-02-18 22:28:32]   Fecha a conservar: 2026-02-18 03:14:38
+[2026-02-18 22:28:32]   Tamaño a liberar: 60.34 GB
+[2026-02-18 22:28:32]   Patrón detectado: Veeam
+[2026-02-18 22:28:32]   Estado: MULTI
+[2026-02-18 22:28:32]   Error al eliminar: [Errno 13] Permission denied: 'MONT-AZDEVOPS_NODO2 Backup.vbm'
+[2026-02-18 22:28:32] 
+────────────────────────────────────────────────────────────────────────────────
+[2026-02-18 22:28:32] [3/3] Job: MON_DEV_PROD_PRE-EXPRESS-PROD
+[2026-02-18 22:28:32] ────────────────────────────────────────────────────────────────────────────────
+[2026-02-18 22:28:32]   ELIMINAR:  MON_DEV_PROD_PRE-EXPRESS-PROD Backup
+[2026-02-18 22:28:32]   CONSERVAR: MON_DEV_PROD_PRE-EXPRESS-PROD Backup_1
+[2026-02-18 22:28:32]   Fecha a eliminar:  2025-11-26 11:23:56
+[2026-02-18 22:28:32]   Fecha a conservar: 2026-02-18 03:24:23
+[2026-02-18 22:28:32]   Tamaño a liberar: 329.59 GB
+[2026-02-18 22:28:32]   Patrón detectado: Veeam
+[2026-02-18 22:28:32]   Estado: MULTI
+[2026-02-18 22:28:32]   Error al eliminar: [Errno 13] Permission denied: 'MON_DEV_PROD_PRE-EXPRESS-PROD Backup.vbm'
+[2026-02-18 22:28:32] 
+================================================================================
+[2026-02-18 22:28:32] RESUMEN DE OPERACIÓN
+[2026-02-18 22:28:32] ================================================================================
+[2026-02-18 22:28:32]  Carpetas eliminadas: 0
+[2026-02-18 22:28:32]  Errores: 3
+[2026-02-18 22:28:32]  Espacio total liberado: 0.00 B
+[2026-02-18 22:28:32] ================================================================================
+
+[2026-02-18 22:28:32] Log completo guardado en: /app/logs/veeam_cleanup.log
+[2026-02-18 22:28:32] 
+ Se completó con 3 error(es)

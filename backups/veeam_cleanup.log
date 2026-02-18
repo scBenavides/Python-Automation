@@ -1,0 +1,14 @@
+[2026-02-18 22:09:53]  Buscando backups duplicados en: /backups
+[2026-02-18 22:09:53]  Fuente de ruta: cli
+[2026-02-18 22:09:53]  Roots permitidos: /backups
+[2026-02-18 22:09:53]  Estrategia: Eliminar backup MÁS ANTIGUO (protección inteligente)
+
+[2026-02-18 22:09:53]  Modo: Veeam + genérico
+[2026-02-18 22:09:53]  No se encontraron carpetas duplicadas para eliminar
+[2026-02-18 22:19:56]  Buscando backups duplicados en: /backups
+[2026-02-18 22:19:56]  Fuente de ruta: cli
+[2026-02-18 22:19:56]  Roots permitidos: /backups
+[2026-02-18 22:19:56]  Estrategia: Eliminar backup MÁS ANTIGUO (protección inteligente)
+
+[2026-02-18 22:19:56]  Modo: Veeam + genérico
+[2026-02-18 22:19:56]  No se encontraron carpetas duplicadas para eliminar
