@@ -4,12 +4,7 @@ services:
     build: .
     env_file:
       - .env
-    cap_add:
-      - SYS_ADMIN
-    security_opt:
-      - apparmor:unconfined
     volumes:
       - ./logs:/app/logs
-      - /mnt/veeambackup:/backups   # <-- Aquí está tu NAS montada
-    user: root
-    command: ["--path", "/backups"]  # Ejecuta el dry run por defecto
+      - ${BACKUPS_HOST_PATH:-./backups}:/backups
+    command: ["--path", "/backups"]
