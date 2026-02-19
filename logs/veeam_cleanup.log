@@ -165,3 +165,445 @@
 [2026-02-18 22:28:32] Log completo guardado en: /app/logs/veeam_cleanup.log
 [2026-02-18 22:28:32] 
  Se completó con 3 error(es)
+[2026-02-19 14:45:47]  Buscando backups duplicados en: /backups
+[2026-02-19 14:45:47]  Fuente de ruta: cli
+[2026-02-19 14:45:47]  Roots permitidos: /backups
+[2026-02-19 14:45:47]  Estrategia: Eliminar backup MÁS ANTIGUO (protección inteligente)
+
+[2026-02-19 14:45:47]  Modo: Veeam + genérico
+[2026-02-19 14:45:47]  PROTEGIDO: Carbonio_temp Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-ALFRESCO DOCKER 7.2 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-BIG BLUE BUTTON Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-CVR_CENTRALIZADO Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-CVR_PROXY Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-INFRA-GLPI-New Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-INFRA-OPENFIRE-UBUNTU Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-INFRA-REPORTING-WS2019 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-INFRA-WINSERVE_2019 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-INFRA_PRUEBAS_WSVR2019 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-IT_UBUNTUSERVER Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-SOPORTE-WIN10_22h2 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: COS-WORKFORCE-PRUEBAS Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: frontcolas Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: JUZGADOS Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-ASTERISK-VOICEBOT-PRODV2 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-CLOUD-WIN_NOTIFICACIONES Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-CLOUD_EXPRESS_ISOLATED Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-CLUSTER_AUTENTICATION-Nodo2-now Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-CONFIANZA-GMF-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DBA-CARTERA-NODO-1-new Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DBA-CLUSTER-RPA_1 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DBA-CRM2_NODO_1 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DBA-MYSQL-MIOS1-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DBA-VOICEBOT Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DBA_APPMASTER_NODO1_PROD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DBA_POSTGRESQL_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV-SOULCHAT-PROD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEVOPS_BALANCER_MASTER Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_APPMASTER_PROJECTS_8.5-PROD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_APPMASTER_PROJECTS_8.7-PROD1 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_CARTERAS_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_CARTERAWOM-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_CENTOS_LARAVEL_PROD1 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_F5_NGINX_PLUS Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_KUBE-RECORDS Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_PROD_DOCKERS_NUEVOS Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_PROD_DOCKERS_NUEVOS_PRUEBA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_QUALITY1 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_QUALITY_TF Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_MIOS_VICIDIAL_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_PROD_APPMASTER_3-PROD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_PROD_APPMASTER_4-prod Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_RP_WEB_SERVICES-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_RRHH-PROD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_VICIDIAL_MARCADOR2 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:47]  PROTEGIDO: MON-DEV_VICIDIAL_MASTER Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-DEV_VICIDIAL_NODO3 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-DEV_VICIDIAL_WEB-RTC Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-DEV_VivamosHumanosWP Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-DEV_WIN10_CORREO_SBS Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-DEV_WIN10_NEW_SBS_INBOUND Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-DEV_WIN10_RECOVER_TOP_ETB Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-DEV_WINDOWS_CRM_EXPRESS Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-GLPI-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-GLPI_CONTACTO-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-JITSI-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-MICROSERVICES-DOCKERS-QA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-MIOS1_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-MYSQL-QA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-OMNICHANNEL_CENTOS_DASHBOTS_87-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-QA-TESTLINK Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-RPA-CLAROVENTAS-PROD-1 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-RPA-CLAROVENTAS-PROD-2 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-SMART-CONFIANZA-QA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:45:48]  PROTEGIDO: MON-SMART-GM-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15]  Buscando backups duplicados en: /backups
+[2026-02-19 14:55:15]  Fuente de ruta: cli
+[2026-02-19 14:55:15]  Roots permitidos: /backups
+[2026-02-19 14:55:15]  Estrategia: Eliminar backup MÁS ANTIGUO (protección inteligente)
+
+[2026-02-19 14:55:15]  Hash desactivado: no se calcularán hashes de archivos (modo rápido)
+[2026-02-19 14:55:15]  Modo: Veeam + genérico
+[2026-02-19 14:55:15] 
+[Grupo Veeam 1/95] Carbonio_temp Backup
+[2026-02-19 14:55:15]  PROTEGIDO: Carbonio_temp Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 2/95] COS-ALFRESCO DOCKER 7.2 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-ALFRESCO DOCKER 7.2 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 3/95] COS-BIG BLUE BUTTON Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-BIG BLUE BUTTON Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 4/95] COS-CVR_CENTRALIZADO Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-CVR_CENTRALIZADO Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 5/95] COS-CVR_PROXY Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-CVR_PROXY Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 6/95] COS-INFRA-GLPI-New Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-INFRA-GLPI-New Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 7/95] COS-INFRA-OPENFIRE-UBUNTU Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-INFRA-OPENFIRE-UBUNTU Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 8/95] COS-INFRA-REPORTING-WS2019 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-INFRA-REPORTING-WS2019 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 9/95] COS-INFRA-WINSERVE_2019 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-INFRA-WINSERVE_2019 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 10/95] COS-INFRA_PRUEBAS_WSVR2019 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-INFRA_PRUEBAS_WSVR2019 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 11/95] COS-IT_UBUNTUSERVER Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-IT_UBUNTUSERVER Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 12/95] COS-SOPORTE-WIN10_22h2 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-SOPORTE-WIN10_22h2 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 13/95] COS-WORKFORCE-PRUEBAS Backup
+[2026-02-19 14:55:15]  PROTEGIDO: COS-WORKFORCE-PRUEBAS Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 14/95] frontcolas Backup
+[2026-02-19 14:55:15]  PROTEGIDO: frontcolas Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 15/95] JUZGADOS Backup
+[2026-02-19 14:55:15]  PROTEGIDO: JUZGADOS Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 16/95] MON-ASTERISK-VOICEBOT-PRODV2 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-ASTERISK-VOICEBOT-PRODV2 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 17/95] MON-CLOUD-WIN_NOTIFICACIONES Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-CLOUD-WIN_NOTIFICACIONES Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 18/95] MON-CLOUD_EXPRESS_ISOLATED Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-CLOUD_EXPRESS_ISOLATED Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 19/95] MON-CLUSTER_AUTENTICATION-Nodo2-now Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-CLUSTER_AUTENTICATION-Nodo2-now Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 20/95] MON-CONFIANZA-GMF-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-CONFIANZA-GMF-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 21/95] MON-DBA-CARTERA-NODO-1-new Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DBA-CARTERA-NODO-1-new Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 22/95] MON-DBA-CLUSTER-RPA_1 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DBA-CLUSTER-RPA_1 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 23/95] MON-DBA-CRM2_NODO_1 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DBA-CRM2_NODO_1 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 24/95] MON-DBA-MYSQL-MIOS1-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DBA-MYSQL-MIOS1-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 25/95] MON-DBA-VOICEBOT Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DBA-VOICEBOT Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 26/95] MON-DBA_APPMASTER_NODO1_PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DBA_APPMASTER_NODO1_PROD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 27/95] MON-DBA_POSTGRESQL_PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DBA_POSTGRESQL_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 28/95] MON-DEV-SOULCHAT-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV-SOULCHAT-PROD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 29/95] MON-DEVOPS_BALANCER_MASTER Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEVOPS_BALANCER_MASTER Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 30/95] MON-DEV_APPMASTER_PROJECTS_8.5-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_APPMASTER_PROJECTS_8.5-PROD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 31/95] MON-DEV_APPMASTER_PROJECTS_8.7-PROD1 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_APPMASTER_PROJECTS_8.7-PROD1 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 32/95] MON-DEV_CARTERAS_PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_CARTERAS_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 33/95] MON-DEV_CARTERAWOM-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_CARTERAWOM-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 34/95] MON-DEV_CENTOS_LARAVEL_PROD1 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_CENTOS_LARAVEL_PROD1 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 35/95] MON-DEV_F5_NGINX_PLUS Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_F5_NGINX_PLUS Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 36/95] MON-DEV_KUBE-RECORDS Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_KUBE-RECORDS Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 37/95] MON-DEV_MIOS_MICROSERVICES_PROD_DOCKERS_NUEVOS Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_PROD_DOCKERS_NUEVOS Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 38/95] MON-DEV_MIOS_MICROSERVICES_PROD_DOCKERS_NUEVOS_PRUEBA Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_PROD_DOCKERS_NUEVOS_PRUEBA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 39/95] MON-DEV_MIOS_MICROSERVICES_QUALITY1 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_QUALITY1 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 40/95] MON-DEV_MIOS_MICROSERVICES_QUALITY_TF Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_MIOS_MICROSERVICES_QUALITY_TF Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 41/95] MON-DEV_MIOS_VICIDIAL_PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_MIOS_VICIDIAL_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 42/95] MON-DEV_PROD_APPMASTER_3-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_PROD_APPMASTER_3-PROD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 43/95] MON-DEV_PROD_APPMASTER_4-prod Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_PROD_APPMASTER_4-prod Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 44/95] MON-DEV_RP_WEB_SERVICES-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_RP_WEB_SERVICES-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 45/95] MON-DEV_RRHH-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_RRHH-PROD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 46/95] MON-DEV_VICIDIAL_MARCADOR2 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_VICIDIAL_MARCADOR2 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 47/95] MON-DEV_VICIDIAL_MASTER Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_VICIDIAL_MASTER Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 48/95] MON-DEV_VICIDIAL_NODO3 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_VICIDIAL_NODO3 Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 49/95] MON-DEV_VICIDIAL_WEB-RTC Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_VICIDIAL_WEB-RTC Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 50/95] MON-DEV_VivamosHumanosWP Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_VivamosHumanosWP Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 51/95] MON-DEV_WIN10_CORREO_SBS Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_WIN10_CORREO_SBS Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 52/95] MON-DEV_WIN10_NEW_SBS_INBOUND Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_WIN10_NEW_SBS_INBOUND Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 53/95] MON-DEV_WIN10_RECOVER_TOP_ETB Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_WIN10_RECOVER_TOP_ETB Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 54/95] MON-DEV_WINDOWS_CRM_EXPRESS Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-DEV_WINDOWS_CRM_EXPRESS Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 55/95] MON-GLPI-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-GLPI-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 56/95] MON-GLPI_CONTACTO-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-GLPI_CONTACTO-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 57/95] MON-JITSI-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-JITSI-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 58/95] MON-MICROSERVICES-DOCKERS-QA Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-MICROSERVICES-DOCKERS-QA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 59/95] MON-MIOS1_PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-MIOS1_PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 60/95] MON-MYSQL-QA Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-MYSQL-QA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 61/95] MON-OMNICHANNEL_CENTOS_DASHBOTS_87-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-OMNICHANNEL_CENTOS_DASHBOTS_87-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 62/95] MON-QA-TESTLINK Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-QA-TESTLINK Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 63/95] MON-RPA-CLAROVENTAS-PROD-1 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-RPA-CLAROVENTAS-PROD-1 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 64/95] MON-RPA-CLAROVENTAS-PROD-2 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-RPA-CLAROVENTAS-PROD-2 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 65/95] MON-SMART-CONFIANZA-QA Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-SMART-CONFIANZA-QA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 66/95] MON-SMART-GM-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-SMART-GM-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 67/95] MON-SMART-GW1-SBS-PROD Backup
+[2026-02-19 14:55:15]   [1/2] Analizando: MON-SMART-GW1-SBS-PROD Backup
+[2026-02-19 14:55:15]      -> fecha=2025-11-16 07:29:59 | tamaño=52.11 GB | reciente=NO | hash=omitido (--no-hash)
+[2026-02-19 14:55:15]   [2/2] Analizando: MON-SMART-GW1-SBS-PROD Backup_1
+[2026-02-19 14:55:15]      -> fecha=2026-02-19 03:25:35 | tamaño=103.31 GB | reciente=NO | hash=omitido (--no-hash)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 68/95] MON-SMART-GW2-GMF-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-SMART-GW2-GMF-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 69/95] MON-SMART-GW3-CONFIANZA-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-SMART-GW3-CONFIANZA-PROD Backup_1 (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 70/95] MON-SMART-GWGMF-QA Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-SMART-GWGMF-QA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 71/95] MON-SMART-GWSBS-QA Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-SMART-GWSBS-QA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 72/95] MON-SMART-QA Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-SMART-QA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 73/95] MON-SMART_CONFIANZA-PROD_TF Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MON-SMART_CONFIANZA-PROD_TF Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 74/95] MONT-AUTO-GOPASS Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-AUTO-GOPASS Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 75/95] MONT-AZDEVOPS_NODO1 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-AZDEVOPS_NODO1 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 76/95] MONT-AZDEVOPS_NODO2 Backup
+[2026-02-19 14:55:15]   [1/2] Analizando: MONT-AZDEVOPS_NODO2 Backup
+[2026-02-19 14:55:15]      -> fecha=2025-12-12 11:00:16 | tamaño=60.34 GB | reciente=NO | hash=omitido (--no-hash)
+[2026-02-19 14:55:15]   [2/2] Analizando: MONT-AZDEVOPS_NODO2 Backup_1
+[2026-02-19 14:55:15]      -> fecha=2026-02-19 03:12:24 | tamaño=38.75 GB | reciente=NO | hash=omitido (--no-hash)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 77/95] MONT-AZDEVOPS_NODO3 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-AZDEVOPS_NODO3 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 78/95] MONT-CLOUD-DEMO Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-CLOUD-DEMO Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 79/95] MONT-CLOUD-ETBSOUL Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-CLOUD-ETBSOUL Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 80/95] MONT-CLOUD-OMNICANALIDAD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-CLOUD-OMNICANALIDAD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 81/95] MONT-CLOUD-PROXY-PUBLICOS INTERNO Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-CLOUD-PROXY-PUBLICOS INTERNO Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 82/95] MONT-CLOUD_K8S_CORE Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-CLOUD_K8S_CORE Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 83/95] MONT-CLOUD_K8S_CORE_LEGACYNODE Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-CLOUD_K8S_CORE_LEGACYNODE Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 84/95] MONT-CLOUD_K8S_CORE_LEGACYNODE2 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-CLOUD_K8S_CORE_LEGACYNODE2 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 85/95] MONT-K8S-SOULAPPS_QA Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-K8S-SOULAPPS_QA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 86/95] MONT-K8S-TEST2 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-K8S-TEST2 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 87/95] MONT-PROXY-IFX Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-PROXY-IFX Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 88/95] MONT-SBS_OFFICIAL-PROD Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-SBS_OFFICIAL-PROD Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 89/95] MONT-SOUL-PROD_NEW Backup
+[2026-02-19 14:55:15]  PROTEGIDO: MONT-SOUL-PROD_NEW Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 90/95] MON_DEV_PROD_PRE-EXPRESS-PROD Backup
+[2026-02-19 14:55:15]   [1/2] Analizando: MON_DEV_PROD_PRE-EXPRESS-PROD Backup
+[2026-02-19 14:55:15]      -> fecha=2025-11-26 11:23:56 | tamaño=329.59 GB | reciente=NO | hash=omitido (--no-hash)
+[2026-02-19 14:55:15]   [2/2] Analizando: MON_DEV_PROD_PRE-EXPRESS-PROD Backup_1
+[2026-02-19 14:55:15]      -> fecha=2026-02-19 03:17:55 | tamaño=764.85 GB | reciente=NO | hash=omitido (--no-hash)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 91/95] OCS_INVENTORY_V2 Backup
+[2026-02-19 14:55:15]  PROTEGIDO: OCS_INVENTORY_V2 Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 92/95] PRUEBAS SONARQUBE DANIELA Backup
+[2026-02-19 14:55:15]  PROTEGIDO: PRUEBAS SONARQUBE DANIELA Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 93/95] Semilla Basica Backup
+[2026-02-19 14:55:15]  PROTEGIDO: Semilla Basica Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 94/95] windows 10 mintic Backup
+[2026-02-19 14:55:15]  PROTEGIDO: windows 10 mintic Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+[Grupo Veeam 95/95] WORDPRESS_NGINX_MICROSITES Backup
+[2026-02-19 14:55:15]  PROTEGIDO: WORDPRESS_NGINX_MICROSITES Backup (no tiene gemelas suficientes)
+[2026-02-19 14:55:15] 
+ Se encontraron 3 par(es) de carpetas duplicadas
+
+[2026-02-19 14:55:15]   • MON-SMART-GW1-SBS-PROD Backup → ELIMINAR
+[2026-02-19 14:55:15]     ↳ Conservar: MON-SMART-GW1-SBS-PROD Backup_1
+[2026-02-19 14:55:15]     ↳ Tamaño: 52.11 GB
+[2026-02-19 14:55:15] 
+[2026-02-19 14:55:15]   • MONT-AZDEVOPS_NODO2 Backup → ELIMINAR
+[2026-02-19 14:55:15]     ↳ Conservar: MONT-AZDEVOPS_NODO2 Backup_1
+[2026-02-19 14:55:15]     ↳ Tamaño: 60.34 GB
+[2026-02-19 14:55:15] 
+[2026-02-19 14:55:15]   • MON_DEV_PROD_PRE-EXPRESS-PROD Backup → ELIMINAR
+[2026-02-19 14:55:15]     ↳ Conservar: MON_DEV_PROD_PRE-EXPRESS-PROD Backup_1
+[2026-02-19 14:55:15]     ↳ Tamaño: 329.59 GB
+[2026-02-19 14:55:15] 
+[2026-02-19 14:55:15] 
+Esto es una SIMULACIÓN. Para eliminar realmente, ejecuta:
+[2026-02-19 14:55:15]    python3 /app/cleanup.py --execute
+
+[2026-02-19 14:55:15] 
+================================================================================
+[2026-02-19 14:55:15] MODO: DRY-RUN (SIMULACIÓN)
+[2026-02-19 14:55:15] ================================================================================
+
+[2026-02-19 14:55:15] 
+────────────────────────────────────────────────────────────────────────────────
+[2026-02-19 14:55:15] [1/3] Job: MON-SMART-GW1-SBS-PROD
+[2026-02-19 14:55:15] ────────────────────────────────────────────────────────────────────────────────
+[2026-02-19 14:55:15]   ELIMINAR:  MON-SMART-GW1-SBS-PROD Backup
+[2026-02-19 14:55:15]   CONSERVAR: MON-SMART-GW1-SBS-PROD Backup_1
+[2026-02-19 14:55:15]   Fecha a eliminar:  2025-11-16 07:29:59
+[2026-02-19 14:55:15]   Fecha a conservar: 2026-02-19 03:25:35
+[2026-02-19 14:55:15]   Tamaño a liberar: 52.11 GB
+[2026-02-19 14:55:15]   Patrón detectado: Veeam
+[2026-02-19 14:55:15]   Estado: MULTI
+[2026-02-19 14:55:15]  Simulación: NO se eliminó nada
+[2026-02-19 14:55:15] 
+────────────────────────────────────────────────────────────────────────────────
+[2026-02-19 14:55:15] [2/3] Job: MONT-AZDEVOPS_NODO2
+[2026-02-19 14:55:15] ────────────────────────────────────────────────────────────────────────────────
+[2026-02-19 14:55:15]   ELIMINAR:  MONT-AZDEVOPS_NODO2 Backup
+[2026-02-19 14:55:15]   CONSERVAR: MONT-AZDEVOPS_NODO2 Backup_1
+[2026-02-19 14:55:15]   Fecha a eliminar:  2025-12-12 11:00:16
+[2026-02-19 14:55:15]   Fecha a conservar: 2026-02-19 03:12:24
+[2026-02-19 14:55:15]   Tamaño a liberar: 60.34 GB
+[2026-02-19 14:55:15]   Patrón detectado: Veeam
+[2026-02-19 14:55:15]   Estado: MULTI
+[2026-02-19 14:55:15]  Simulación: NO se eliminó nada
+[2026-02-19 14:55:15] 
+────────────────────────────────────────────────────────────────────────────────
+[2026-02-19 14:55:15] [3/3] Job: MON_DEV_PROD_PRE-EXPRESS-PROD
+[2026-02-19 14:55:15] ────────────────────────────────────────────────────────────────────────────────
+[2026-02-19 14:55:15]   ELIMINAR:  MON_DEV_PROD_PRE-EXPRESS-PROD Backup
+[2026-02-19 14:55:15]   CONSERVAR: MON_DEV_PROD_PRE-EXPRESS-PROD Backup_1
+[2026-02-19 14:55:15]   Fecha a eliminar:  2025-11-26 11:23:56
+[2026-02-19 14:55:15]   Fecha a conservar: 2026-02-19 03:17:55
+[2026-02-19 14:55:15]   Tamaño a liberar: 329.59 GB
+[2026-02-19 14:55:15]   Patrón detectado: Veeam
+[2026-02-19 14:55:15]   Estado: MULTI
+[2026-02-19 14:55:15]  Simulación: NO se eliminó nada
+[2026-02-19 14:55:15] 
+================================================================================
+[2026-02-19 14:55:15] RESUMEN DE OPERACIÓN
+[2026-02-19 14:55:15] ================================================================================
+[2026-02-19 14:55:15]  Carpetas que se eliminarían: 3
+[2026-02-19 14:55:15]  Espacio total a liberar: 442.04 GB
+[2026-02-19 14:55:15] ================================================================================
+
+[2026-02-19 14:55:15] Log guardado en: /app/logs/veeam_cleanup.log

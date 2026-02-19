@@ -289,21 +289,31 @@ def analyze_group(folders, pattern_type: str, use_hash: bool = True):
     y devuelve decisiones para eliminar todas menos la más reciente.
     """
     infos = []
-    for folder in folders:
+    total = len(folders)
+    for idx, folder in enumerate(folders, 1):
+        log(f"  [{idx}/{total}] Analizando: {folder.name}")
         time_val = get_latest_backup_time(folder)
+        size_val = get_folder_size(folder)
+        recent_val = has_recent_activity(folder)
         hash_val = hash_backup_folder(folder, use_hash=use_hash)
         infos.append(
             {
                 "folder": folder,
                 "time": time_val,
                 "hash": hash_val,
-                "size": get_folder_size(folder),
+                "size": size_val,
+                "recent": recent_val,
             }
+        )
+        log(
+            f"     -> fecha={format_time(time_val)} | tamaño={format_size(size_val)} | "
+            f"reciente={'SI' if recent_val else 'NO'}"
+            + (" | hash=omitido (--no-hash)" if not use_hash else "")
         )
     
     # Guardrail: evitar borrar si hay actividad reciente
     for info in infos:
-        if has_recent_activity(info["folder"]):
+        if info.get("recent"):
             log(f"  Actividad reciente detectada en {info['folder'].name} (se protege el grupo)")
             return []
     
@@ -450,7 +460,9 @@ def find_duplicate_backups(base_dir: Path, mode: str = "all", use_hash: bool = T
     
     # Procesar grupos Veeam (incluye la base si existe)
     if mode in ("all", "veeam"):
-        for base_name, folders in veeam_groups.items():
+        veeam_items = list(veeam_groups.items())
+        for idx, (base_name, folders) in enumerate(veeam_items, 1):
+            log(f"\n[Grupo Veeam {idx}/{len(veeam_items)}] {base_name}")
             base_folder = base_dir / base_name
             if base_folder.exists() and base_folder.is_dir():
                 if base_folder not in folders:
@@ -463,7 +475,9 @@ def find_duplicate_backups(base_dir: Path, mode: str = "all", use_hash: bool = T
     
     # Procesar grupos genéricos
     if mode in ("all", "generic"):
-        for base_name, folders in generic_groups.items():
+        generic_items = list(generic_groups.items())
+        for idx, (base_name, folders) in enumerate(generic_items, 1):
+            log(f"\n[Grupo Genérico {idx}/{len(generic_items)}] {base_name}")
             base_folder = base_dir / base_name
             if base_folder.exists() and base_folder.is_dir():
                 if base_folder not in folders:
