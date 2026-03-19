@@ -6,7 +6,7 @@ Estrategia: Elimina SIEMPRE el backup MÁS ANTIGUO (basándose en fechas reales)
             Conserva SIEMPRE el backup MÁS RECIENTE (protección inteligente)
 
 Características:
-- Detecta patrones: "[Nombre] Backup / Backup_1 / Backup_2 / ..." y "[Nombre] / [Nombre]_1 / [Nombre]_2 / ..."
+- Detecta patrones: "[Nombre] Backup / Backup_1 / Backup 1 / ..." y "[Nombre] / [Nombre]_1 / [Nombre]_2 / ..."
 - Usa fechas de archivos .vib/.vbk/.vbm (no de carpetas)
 - Invierte lógica automáticamente si detecta backup reciente sin _1
 - Protección contra pérdida de datos
@@ -405,7 +405,7 @@ def analyze_group(folders, pattern_type: str, use_hash: bool = True):
 def find_duplicate_backups(base_dir: Path, mode: str = "all", use_hash: bool = True, allow_symlinks: bool = False):
     """
     Encuentra backups duplicados siguiendo estos patrones:
-    1. [Nombre] Backup / [Nombre] Backup_1 / Backup_2 / ... (patrón estándar Veeam)
+    1. [Nombre] Backup / [Nombre] Backup_1 / [Nombre] Backup 1 / ... (patrón estándar Veeam)
     2. [Nombre] / [Nombre]_1 / [Nombre]_2 / ... (patrón genérico)
     
     Marca para eliminar todos menos el backup MÁS RECIENTE.
@@ -439,6 +439,7 @@ def find_duplicate_backups(base_dir: Path, mode: str = "all", use_hash: bool = T
         # "Nombre Backup"
         # "Nombre Backup_1"
         # "Nombre Backup _1"
+        # "Nombre Backup 1"
         veeam_base_match = re.match(r"^(?P<base>.+?)\s+backup\s*$", name, flags=re.IGNORECASE)
         if veeam_base_match:
             base = veeam_base_match.group("base").strip()
@@ -446,7 +447,11 @@ def find_duplicate_backups(base_dir: Path, mode: str = "all", use_hash: bool = T
             veeam_groups.setdefault(base_key, []).append(folder)
             continue
         
-        veeam_suffix_match = re.match(r"^(?P<base>.+?)\s+backup\s*_\s*(?P<num>\d+)\s*$", name, flags=re.IGNORECASE)
+        veeam_suffix_match = re.match(
+            r"^(?P<base>.+?)\s+backup(?:\s*_\s*|\s+)(?P<num>\d+)\s*$",
+            name,
+            flags=re.IGNORECASE,
+        )
         if veeam_suffix_match:
             base = veeam_suffix_match.group("base").strip()
             base_key = f"{base} Backup"
@@ -651,9 +656,13 @@ def process_deletions(candidates, backup_dir: Path, dry_run=False, allow_symlink
     for idx, item in enumerate(candidates, 1):
         # Extraer nombre del job (sin sufijos)
         job_name = item['delete'].name
-        if " Backup_" in job_name:
-            job_name = job_name.split(" Backup_")[0]
-        job_name = job_name.replace(" Backup", "")
+        job_name = re.sub(
+            r"\s+backup(?:\s*_\s*|\s+)\d+\s*$",
+            "",
+            job_name,
+            flags=re.IGNORECASE,
+        )
+        job_name = re.sub(r"\s+backup\s*$", "", job_name, flags=re.IGNORECASE)
         if "_" in job_name and job_name.rsplit("_", 1)[1].isdigit():
             job_name = job_name.rsplit("_", 1)[0]
         
@@ -764,7 +773,7 @@ EJEMPLOS DE USO:
   %(prog)s --allow-symlinks   # Permite procesar symlinks (NO recomendado)
   
 ESTRATEGIA INTELIGENTE:
-  ✓ Detecta patrones: "[Nombre] Backup_1/2/..." y "[Nombre]_1/2/..."
+  ✓ Detecta patrones: "[Nombre] Backup_1/2/... o Backup 1/2/..." y "[Nombre]_1/2/..."
   ✓ Con sufijos múltiples: conserva solo el MÁS RECIENTE
   ✓ Si no hay backups reales: elimina solo carpetas vacías
   ✓ Opciones: --only-veeam, --only-generic, --no-hash, --allow-symlinks
@@ -810,7 +819,7 @@ ARCHIVOS:
     group.add_argument(
         "--only-veeam",
         action="store_true",
-        help="Procesar solo patrón Veeam ([Nombre] Backup / Backup_N)"
+        help="Procesar solo patrón Veeam ([Nombre] Backup / Backup_N / Backup N)"
     )
     group.add_argument(
         "--only-generic",

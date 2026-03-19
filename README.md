@@ -63,6 +63,11 @@ docker compose run --rm veeam-cleaner --no-hash
 
 Esto no elimina nada; solo muestra qué borraría.
 
+Patrones detectados (Veeam):
+- `Nombre Backup`
+- `Nombre Backup_1`, `Nombre Backup_2`, ...
+- `Nombre Backup 1`, `Nombre Backup 2`, ...
+
 ## 5) Ejecutar eliminación real
 
 ```bash
